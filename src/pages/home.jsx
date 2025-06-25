@@ -24,7 +24,7 @@ const Home = () => {
 
   return (
     <>
-      <Header />
+  
       <div className="max-w-3xl mx-auto p-4">
         <h1 className="text-2xl font-bold mb-6">Latest News</h1>
         <div className="space-y-4">
@@ -36,7 +36,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <Footer />
+  
     </>
   );
 };
